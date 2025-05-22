@@ -10,7 +10,7 @@ connectDB();
 app.use(cookieParser());
 app.use(express.json());
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://localhost:3001','https://infoziant-admin-frontend.vercel.app','https://infoziant-coral.vercel.app'], // ✅ Your frontend URL (adjust if using another port)
+  origin: ['http://localhost:3000', 'https://infoziant.com','https://infoziant-admin-frontend.vercel.app','https://infoziant-coral.vercel.app'], // ✅ Your frontend URL (adjust if using another port)
   credentials: true               // ✅ Needed to allow cookies
 }));
 
